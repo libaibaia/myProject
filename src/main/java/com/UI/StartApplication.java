@@ -19,7 +19,7 @@ public class StartApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(StartApplication.class.getResource("controller/MainController.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("云安全利用工具");
+        stage.setTitle("反序列化生成工具");
         stage.setScene(scene);
         stage.show();
     }
