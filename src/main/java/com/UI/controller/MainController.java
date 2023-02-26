@@ -52,7 +52,6 @@ public class MainController implements Initializable {
         //获取结果更新到expResultTextArea
         String exp = payloadGenerator.getExp(expValueType.getSelectionModel().getSelectedItem(),cmd);
         expResultTextArea.appendText(exp);
-        payloadGenerator.unSerializable();
     }
 
     /**
